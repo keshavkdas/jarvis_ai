@@ -1,1 +1,6 @@
 # Requirements will be added as we go
+
+google-generativeai
+python-dotenv
+requests
+
