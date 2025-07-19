@@ -1,4 +1,4 @@
-import pyttsx3
+import pyttsx3 # type: ignore
 
 engine = pyttsx3.init()
 engine.setProperty("rate", 170)    # Speed of speech

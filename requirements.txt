@@ -4,4 +4,17 @@ google-generativeai
 python-dotenv
 requests
 pyttsx3
+chardet
+pymupdf
+customtkinter
+PIL
+pyaudio
+SpeechRecognition
+deep-translator
+google-search-results
+pyautogui 
+pygetwindow 
+pywinauto
+
+
 

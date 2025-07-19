@@ -12,3 +12,10 @@ def execute_command(command: str) -> str:
             return f"Error: {result.stderr.strip()}"
     except Exception as e:
         return f"Failed to execute command: {str(e)}"
+    
+def open_application(app_name: str) -> str:
+    try:
+        subprocess.Popen(app_name, shell=True)
+        return f"Opening {app_name}"
+    except Exception as e:
+        return f"Failed to open {app_name}: {e}"    

@@ -1,7 +1,8 @@
 import os
-import requests
+import requests # type: ignore
 import json
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
@@ -30,3 +31,4 @@ def ask_gpt(prompt):
 
     result = response.json()
     return result["candidates"][0]["content"]["parts"][0]["text"]
+
